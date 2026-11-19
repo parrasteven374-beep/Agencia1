@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudio fotográfico y agencia de talento · 3 sedes</title>
+<meta name="description" content="Estudio de fotografía profesional y producción audiovisual, y agencia de talento y creadores de contenido digital. Tres sedes. Exclusivo para mayores de edad.">
+<meta name="theme-color" content="#1D2B53">
+<script>document.documentElement.classList.add('js');
+/* Failsafe: si el motor de animación no carga, todo el contenido queda visible */
+window.addEventListener('load',function(){setTimeout(function(){if(!window.Motion){document.documentElement.classList.add('motion-failsafe')}},1500)});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/motion-core.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- Cursor personalizado: único efecto de puntero de la página ("Ver" sobre el portafolio) -->
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="agebar" role="note"><strong>+18</strong> Exclusivo para mayores de edad</div>
+
+<header class="header">
+  <a class="header__side header__side--a" href="#estudio" data-nav="estudio">Estudio Fotográfico</a>
+  <a class="header__brand" href="#inicio" aria-label="Inicio">Estudio <em>&amp;</em> Elenco</a>
+  <a class="header__side header__side--b" href="#elenco" data-nav="elenco">Únete al Elenco</a>
+</header>
+
+<main id="contenido">
+  <!-- HERO DUAL -->
+  <section class="hero" id="inicio" aria-label="Dos líneas de trabajo">
+    <div class="hero__half hero__half--a">
+      <div class="hero__art"><img src="assets/photos/hero-estudio.jpg" alt="Fotógrafo en el suelo de un estudio con luz octogonal dirigiendo una sesión de moda" width="1600" height="2400" fetchpriority="high" decoding="async"></div>
+      <p class="hero__n">Línea 01 · Fotografía y producción</p>
+      <h1>Estudio Foto&shy;gráfico</h1>
+      <p class="hero__txt">Fotografía editorial y comercial, producción audiovisual y retrato profesional en estudio propio.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#estudio">Ver portafolio</a>
+        <a class="btn btn--ghost" href="#contacto" data-motivo="sesion">Agendar sesión</a>
+      </div>
+    </div>
+    <div class="hero__half hero__half--b on-ink">
+      <div class="hero__art"><img src="assets/photos/hero-elenco.jpg" alt="Creadora de contenido frente a un aro de luz grabando con su teléfono" width="1600" height="2400" fetchpriority="high" decoding="async"></div>
+      <p class="hero__n">Línea 02 · Talento y contenido</p>
+      <h1>Únete al Elenco</h1>
+      <p class="hero__txt">Agencia de talento y creadores de contenido digital: streaming profesional y manejo de imagen.</p>
+      <div class="hero__cta">
+        <a class="btn btn--light" href="#contacto" data-motivo="talento">Postularme</a>
+        <a class="btn btn--ghost" href="#elenco">Ver beneficios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AFIRMACIÓN -->
+  <section class="statement wrap" aria-label="Propuesta de valor">
+    <p data-words-scrub>Dos líneas que se alimentan entre sí: un estudio que cuida cada imagen y una agencia que acompaña a cada creador, con el mismo estándar profesional en las tres sedes.</p>
+  </section>
+
+  <!-- BENTO DE SERVICIOS -->
+  <section class="section wrap" style="padding-top:0" aria-labelledby="t-servicios">
+    <h2 class="h2" id="t-servicios" data-split="lines">Lo que se hace en el estudio</h2>
+    <div class="bento" data-stagger>
+      <article class="tile tile--a"><div class="tile__art"><img src="assets/photos/servicio-editorial.jpg" alt="Set de estudio con fondo blanco, softboxes y pantalla de control" loading="lazy" decoding="async" width="1600" height="2400"></div><h3>Fotografía editorial</h3><p>Series con dirección de arte, iluminación de estudio y retoque cuidadoso.</p></article>
+      <article class="tile tile--b on-ink"><div class="tile__art"><img src="assets/photos/servicio-audiovisual.jpg" alt="Presentadora sonriente grabando video frente a un aro de luz en su escritorio" loading="lazy" decoding="async" width="1600" height="1067"></div><h3>Producción audiovisual</h3><p>Video corto, piezas para marcas y contenido para plataformas digitales.</p></article>
+      <article class="tile tile--c"><h3>Retrato profesional</h3><p>Imagen personal y de marca con luz controlada.</p></article>
+      <article class="tile tile--d"><h3>Streaming profesional</h3><p>Salas equipadas con iluminación, audio y conexión dedicada.</p></article>
+      <article class="tile tile--e"><h3>Manejo de imagen</h3><p>Dirección de imagen y portafolio para cada talento.</p></article>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO -->
+  <section class="section wrap" id="estudio" style="padding-top:0" aria-labelledby="t-portafolio">
+    <div class="sechead">
+      <h2 class="h2" id="t-portafolio" data-split="lines" style="margin:0">Portafolio fotográfico</h2>
+      <p data-reveal="fade">Tres formas de trabajar la imagen: editorial, estudio y retrato.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filtrar portafolio por categoría">
+      <button type="button" class="chip is-active" data-filter="all" aria-pressed="true">Todo</button>
+      <button type="button" class="chip" data-filter="editorial" aria-pressed="false">Editorial</button>
+      <button type="button" class="chip" data-filter="estudio" aria-pressed="false">Estudio</button>
+      <button type="button" class="chip" data-filter="retrato" aria-pressed="false">Retrato</button>
+    </div>
+    <ul class="grid" id="grid" aria-live="polite">
+      <li class="work work--wide" data-cat="editorial"><figure><img src="assets/photos/editorial-fotografo.jpg" alt="Fotógrafo dirigiendo a una modelo en un cíclorama blanco" loading="lazy" decoding="async" width="1600" height="1067"><figcaption><b>Sesión en fondo blanco</b><span>Editorial</span></figcaption></figure></li>
+      <li class="work" data-cat="retrato"><figure><img src="assets/photos/retrato-01.jpg" alt="Retrato de una mujer con la mano en el rostro, luz suave y fondo cálido" loading="lazy" decoding="async" width="1600" height="2240"><figcaption><b>Retrato natural</b><span>Retrato</span></figcaption></figure></li>
+      <li class="work" data-cat="estudio"><figure><img src="assets/photos/estudio-luces.jpg" alt="Luces de estudio con paraguas y softboxes sobre fondo neutro" loading="lazy" decoding="async" width="1600" height="2400"><figcaption><b>Iluminación de estudio</b><span>Estudio</span></figcaption></figure></li>
+      <li class="work" data-cat="editorial"><figure><img src="assets/photos/hero-estudio.jpg" alt="Fotógrafo en el suelo de un estudio con luz octogonal dirigiendo una sesión de moda" loading="lazy" decoding="async" width="1600" height="2400"><figcaption><b>Dirección de moda</b><span>Editorial</span></figcaption></figure></li>
+      <li class="work" data-cat="estudio"><figure><img src="assets/photos/estudio-set.jpg" alt="Set de estudio con luces continuas, silla de director y fondo claro" loading="lazy" decoding="async" width="1600" height="2400"><figcaption><b>Set de luz continua</b><span>Estudio</span></figcaption></figure></li>
+      <li class="work work--wide" data-cat="estudio"><figure><img src="assets/photos/estudio-fondo.jpg" alt="Fondo oscuro de estudio con luces y panel de iluminación" loading="lazy" decoding="async" width="1600" height="1067"><figcaption><b>Fondo de estudio</b><span>Estudio</span></figcaption></figure></li>
+      <li class="work" data-cat="retrato"><figure><img src="assets/photos/retrato-02.jpg" alt="Retrato de cuerpo entero con camisa oscura sobre fondo color arena" loading="lazy" decoding="async" width="1600" height="2400"><figcaption><b>Retrato de cuerpo entero</b><span>Retrato</span></figcaption></figure></li>
+      <li class="work" data-cat="retrato"><figure><img src="assets/photos/retrato-03.jpg" alt="Joven frente a un aro de luz sonriendo a cámara" loading="lazy" decoding="async" width="1600" height="2397"><figcaption><b>Retrato con luz anular</b><span>Retrato</span></figcaption></figure></li>
+      <li class="work work--wide" data-cat="editorial"><figure><img src="assets/photos/editorial-sesion.jpg" alt="Sesión de moda con modelo, soporte de luz y fondo de papel en un estudio" loading="lazy" decoding="async" style="object-position:50% 38%" width="1600" height="2400"><figcaption><b>Cíclorama blanco</b><span>Editorial</span></figcaption></figure></li>
+    </ul>
+  </section>
+
+  <!-- SEDES -->
+  <section class="section band on-ink" id="sedes" aria-labelledby="t-sedes">
+    <div class="wrap">
+      <h2 class="h2" id="t-sedes" data-split="lines">Tres sedes, un mismo estándar de producción</h2>
+      <p class="lead" data-reveal="fade">Cada sede se ubica por zona general. La dirección se comparte solo al confirmar una cita.</p>
+      <div class="sedes" data-stagger>
+        <article class="sede"><div class="sede__art"><img src="assets/photos/sede-estudio.jpg" alt="Estudio con luces, trípodes y fondo claro" loading="lazy" decoding="async" width="1600" height="1065"></div><p class="sede__n">Sede 1</p><h3>Zona norte</h3><p class="zone">Estudio fotográfico principal</p><p>Fondos de papel, luz continua y flash, y área de maquillaje.</p></article>
+        <article class="sede"><div class="sede__art"><img src="assets/photos/sede-streaming.jpg" alt="Sala de streaming con aro de luz, micrófono y decoración de neón" loading="lazy" decoding="async" width="1600" height="2400"></div><p class="sede__n">Sede 2</p><h3>Zona centro</h3><p class="zone">Salas de streaming</p><p>Iluminación, audio y conexión dedicada para transmisión profesional.</p></article>
+        <article class="sede"><div class="sede__art"><img src="assets/photos/sede-lounge.jpg" alt="Sala de espera luminosa con sofás y plantas" loading="lazy" decoding="async" width="1600" height="1067"></div><p class="sede__n">Sede 3</p><h3>Zona sur</h3><p class="zone">Producción audiovisual</p><p>Formación en cámara, producción y atención a talentos.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS PARA TALENTOS -->
+  <section class="section wrap" id="elenco" aria-labelledby="t-beneficios">
+    <h2 class="h2" id="t-beneficios" data-split="lines">Lo que recibes al unirte al elenco</h2>
+    <div class="about" data-reveal="up">
+      <p class="lead">El elenco reúne a creadores y modelos mayores de edad que producen contenido digital profesional: sesiones de fotografía y video, transmisiones en vivo desde salas equipadas y construcción de una imagen propia.</p>
+      <p>Tú decides qué mostrar y qué no. El equipo te acompaña con dirección de imagen, soporte técnico y producción, y todas las condiciones quedan por escrito antes de empezar.</p>
+    </div>
+    <div class="tablewrap" data-reveal="up">
+      <table class="cmp">
+        <caption class="sr-only">Comparación entre crear contenido por tu cuenta y hacerlo con la agencia</caption>
+        <thead><tr><th scope="col">Beneficio</th><th scope="col">Con la agencia</th><th scope="col">Por tu cuenta</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Estudio fotográfico propio</th><td>Incluido, con equipo profesional</td><td>Alquiler y montaje por tu cuenta</td></tr>
+          <tr><th scope="row">Soporte técnico</th><td>Acompañamiento en iluminación, audio y transmisión</td><td>Resolver los fallos sin apoyo</td></tr>
+          <tr><th scope="row">Bloqueo geográfico</th><td>Configuración de privacidad por región</td><td>Sin configuración guiada</td></tr>
+          <tr><th scope="row">Pagos puntuales</th><td>Calendario de pagos claro y cumplido</td><td>Fechas inciertas</td></tr>
+          <tr><th scope="row">Manejo de imagen</th><td>Dirección de imagen y portafolio profesional</td><td>Sin dirección ni portafolio</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note" data-reveal="fade">Condiciones sujetas a contrato. Para postularte debes ser mayor de 18 años.</p>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section wrap" style="padding-top:0" aria-labelledby="t-proceso">
+    <div class="process">
+      <div class="process__title">
+        <h2 class="h2" id="t-proceso" data-split="lines">Así empieza tu proceso</h2>
+        <p class="lead" data-reveal="fade">Tres pasos claros, sin sorpresas.</p>
+        <figure class="process__img"><img src="assets/photos/proceso-recepcion.jpg" alt="Recepción moderna con mostrador azul y paneles de madera" loading="lazy" decoding="async" width="1600" height="2133"></figure>
+      </div>
+      <ol class="steps" data-stagger>
+        <li class="step"><h3>Cuéntanos qué necesitas</h3><p>Completa el formulario eligiendo si quieres agendar una sesión o postularte como talento.</p></li>
+        <li class="step"><h3>Conversamos contigo</h3><p>Te escribimos por el canal oficial de la agencia para resolver dudas y verificar la mayoría de edad.</p></li>
+        <li class="step"><h3>Empezamos a producir</h3><p>Definimos fecha, sede y dirección de imagen, y comienzas en el estudio.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section class="section wrap" style="padding-top:0" aria-labelledby="t-faq">
+    <h2 class="h2" id="t-faq" data-split="lines">Preguntas frecuentes</h2>
+    <div class="faq" data-reveal="up">
+      <details><summary>¿Quién puede postularse?</summary><p>Solo personas mayores de 18 años. Podemos solicitar verificación de identidad antes de iniciar.</p></details>
+      <details><summary>¿Qué tipo de trabajo es?</summary><p>Creación de contenido digital profesional: fotografía, video y transmisiones en vivo con producción y soporte técnico. Los límites de lo que se publica los defines tú y quedan por escrito.</p></details>
+      <details><summary>¿Qué es el bloqueo geográfico?</summary><p>Es una configuración de privacidad que permite restringir en qué regiones o países se muestra tu contenido, para proteger tu identidad. El equipo técnico te ayuda a configurarla.</p></details>
+      <details><summary>¿Cómo funcionan los pagos?</summary><p>El calendario y la forma de pago se definen por escrito en el contrato antes de empezar a producir. Puedes revisarlos con calma y resolver tus dudas antes de firmar.</p></details>
+      <details><summary>¿Puedo retirarme cuando quiera?</summary><p>Tu participación es voluntaria. Las condiciones de salida quedan descritas en el contrato, y puedes consultarlas antes de aceptar.</p></details>
+      <details><summary>¿Cómo se protege mi información?</summary><p>Tratamos tus datos conforme a la Política de Privacidad y la normativa de protección de datos (Habeas Data). Solo los usamos para responder a tu solicitud y no se comparten sin tu autorización.</p></details>
+      <details><summary>¿Dónde están las sedes?</summary><p>Contamos con tres sedes, ubicadas en las zonas norte, centro y sur. La dirección exacta se comparte al confirmar una cita.</p></details>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section class="section band on-ink" id="contacto" aria-labelledby="t-contacto">
+    <div class="wrap formgrid">
+      <div>
+        <h2 class="h2" id="t-contacto" data-split="lines">Cuéntanos qué necesitas</h2>
+        <p data-reveal="fade">Elige el motivo y completa solo lo necesario. Te respondemos por el canal oficial de la agencia.</p>
+        <p class="age"><strong>+18</strong> <span>Exclusivo para mayores de edad. Podemos solicitar verificación de identidad.</span></p>
+      </div>
+      <form id="form" class="form" novalidate style="color:var(--text)">
+        <div class="field">
+          <label for="motivo">Motivo de contacto</label>
+          <select id="motivo" name="motivo" required>
+            <option value="sesion">Agendar sesión fotográfica</option>
+            <option value="talento">Postularse como talento</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="tel">Teléfono / WhatsApp</label>
+          <input id="tel" name="tel" type="tel" autocomplete="tel" required>
+        </div>
+
+        <fieldset class="cond" data-for="sesion">
+          <legend class="sr-only">Datos de la sesión</legend>
+          <div class="field">
+            <label for="tipo">Tipo de sesión</label>
+            <select id="tipo" name="tipo" required>
+              <option value="">Selecciona…</option>
+              <option>Editorial</option><option>Estudio</option><option>Retrato</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fecha">Fecha preferida</label>
+            <input id="fecha" name="fecha" type="date" required>
+          </div>
+        </fieldset>
+
+        <fieldset class="cond" data-for="talento" hidden disabled>
+          <legend class="sr-only">Datos de postulación</legend>
+          <div class="field">
+            <label for="edad">Edad (mínimo 18)</label>
+            <input id="edad" name="edad" type="number" min="18" max="99" inputmode="numeric" required>
+          </div>
+          <div class="field">
+            <label for="exp">Experiencia frente a cámara</label>
+            <select id="exp" name="exp" required>
+              <option value="">Selecciona…</option>
+              <option>Ninguna</option><option>Menos de 1 año</option><option>1 año o más</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="redes">Perfil de redes (opcional)</label>
+            <input id="redes" name="redes" type="text" placeholder="@usuario">
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="sede">Sede de preferencia</label>
+          <select id="sede" name="sede">
+            <option value="">Sin preferencia</option>
+            <option>Sede 1 · Zona norte</option><option>Sede 2 · Zona centro</option><option>Sede 3 · Zona sur</option>
+          </select>
+        </div>
+
+        <div class="check">
+          <input id="habeas" name="habeas" type="checkbox" required>
+          <label for="habeas">Acepto la <a href="#">Política de Privacidad</a> y el tratamiento de mis datos personales (Habeas Data). Declaro ser mayor de 18 años.</label>
+        </div>
+        <p class="err" id="err" role="alert" hidden></p>
+        <button class="btn" type="submit">Enviar solicitud</button>
+        <p class="ok" id="ok" role="status" hidden>Gracias. Recibimos tu solicitud y te escribiremos pronto.</p>
+        <!-- Integración: enviar los datos al backend/CRM en js/app.js (función enviar). -->
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer on-ink">
+  <div class="wrap footer__in">
+    <p class="footer__brand">Estudio <em>&amp;</em> Elenco</p>
+    <p>Sitio exclusivo para mayores de edad.</p>
+    <nav aria-label="Legal">
+      <a href="#">Política de Privacidad</a>
+      <a href="#">Términos y Condiciones</a>
+    </nav>
+    <p>© <span id="y">2026</span> Estudio &amp; Elenco. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- Reemplazar 570000000000 por el número comercial de la agencia -->
+<a class="wa" href="https://wa.me/570000000000?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/lenis.min.js"></script>
+<script src="js/motion-core.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
