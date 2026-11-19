@@ -20,7 +20,7 @@ code{font:500 .9em ui-monospace,Consolas,monospace;background:rgba(29,43,83,.08)
 .on-ink :focus-visible,.footer :focus-visible,.agebar :focus-visible{outline-color:#fff}
 .wrap{padding-inline:var(--gutter);max-width:1320px;margin-inline:auto}
 .section{padding-block:clamp(4.5rem,10vw,8.5rem)}
-.h2{font-size:clamp(2.4rem,1.4rem + 4vw,4.4rem);margin-bottom:1.25rem;max-width:20ch}
+.h2{font-size:clamp(1.7rem,1.3rem + 1.3vw,2.4rem);margin-bottom:1.25rem;max-width:28ch}
 .lead{font-size:1.2rem;color:var(--muted)}
 .skip{position:absolute;left:1rem;top:-4rem;background:var(--ink);color:#fff;padding:.75rem 1rem;z-index:100;border-radius:8px}
 .skip:focus{top:1rem}
@@ -61,7 +61,7 @@ code{font:500 .9em ui-monospace,Consolas,monospace;background:rgba(29,43,83,.08)
 .hero__half>*:not(.hero__art){position:relative;z-index:1}
 .hero__n{font:600 .8rem/1 var(--font-sans);letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin:0}
 .hero__half--b .hero__n{color:var(--brass-light)}
-.hero h1{font-size:clamp(3.4rem,2rem + 6vw,7.4rem);max-width:9ch}
+.hero h1{font-size:clamp(2.1rem,1.5rem + 2.2vw,3.4rem);max-width:16ch}
 .hero__txt{font-size:1.15rem;max-width:34ch;color:var(--muted);margin-bottom:.5rem}
 .hero__half--b .hero__txt{color:var(--on-ink-muted)}
 .hero__cta{display:flex;flex-wrap:wrap;gap:.75rem}
@@ -74,7 +74,7 @@ code{font:500 .9em ui-monospace,Consolas,monospace;background:rgba(29,43,83,.08)
 
 /* Banda de afirmación */
 .statement{padding-block:clamp(4rem,9vw,7rem)}
-.statement p{font:400 clamp(1.9rem,1.1rem + 3.2vw,3.7rem)/1.12 var(--font-display);max-width:26ch;margin:0}
+.statement p{font:400 clamp(1.4rem,1.1rem + 1vw,1.9rem)/1.12 var(--font-display);max-width:26ch;margin:0}
 .statement p em{font-style:italic;color:var(--ink)}
 
 /* Bento de servicios */
